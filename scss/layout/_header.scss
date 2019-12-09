@@ -12,6 +12,15 @@ header {
   padding: 1px;
   align-items: center;
   justify-content: center;
+  li {
+    position: relative;
+    height: 82px;
+    a {
+      display: flex;
+      align-items: center;
+      height: 100%;
+    }
+  }
   li:not(:last-child) {
     margin-right: 150px;
   }
@@ -22,5 +31,48 @@ header {
   img {
     width: 100%;
     height: 100%;
+  }
+}
+header li a:hover + ul {
+  display: block;
+}
+.drop {
+  position: absolute;
+  left: -12px;
+  top: 81px;
+  width: 290px;
+  height: auto;
+  padding: 0 12px;
+  background-color: #fff;
+  display: none;
+  li {
+    padding: 20px;
+    width: 100%;
+  }
+  li:not(:last-child) {
+    border-bottom: 1px solid #a5dcf3;
+  }
+}
+.drop:hover {
+  display: block;
+}
+@media (max-height: 850px) and (min-width: 1200px) {
+  .menu li {
+    height: 60px;
+  }
+  .drop {
+    top: 59px;
+  }
+}
+
+@media (max-width: 1199.9px) {
+  .menu li .logo_header {
+    height: 60px;
+  }
+  .menu li {
+    height: 60px;
+  }
+  .drop {
+    top: 59px;
   }
 }

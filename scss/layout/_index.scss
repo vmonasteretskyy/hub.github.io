@@ -120,7 +120,7 @@ section {
 }
 .dots_bg {
   position: absolute;
-  background-image: url("../../image/dots.png");
+  background-image: url("../image/dots.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 183px;
@@ -210,7 +210,7 @@ section {
 // third
 
 .third_view {
-  background-image: url("../../image/bg_3.png");
+  background-image: url("../image/bg_3.png");
   padding-top: 155px;
   padding-bottom: 200px;
   position: relative;
@@ -446,10 +446,13 @@ h3 {
 footer {
   padding-top: 115px;
   padding-bottom: 35px;
-  background-image: url("../../image/footer_bg.png");
+  background-image: url("../image/footer_bg.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
+//
+//asdasdasdasdsadasd
+//
 footer li a,
 footer li p,
 .copyrights,
@@ -707,6 +710,62 @@ MEDIA
   .home_blog {
     margin-top: 30px;
   }
+  .menu_btn {
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin-left: 20px;
+  }
+  .close_btn {
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+  }
+  .menu {
+    position: absolute;
+    flex-direction: column;
+    padding: 40px 10px;
+    width: 290px;
+    top: 0;
+    left: -100vw;
+    border-radius: 10px;
+    transition: all 0.4s;
+    & > li {
+      order: 2;
+    }
+    & > li:not(:last-child) {
+      margin-bottom: 20px;
+    }
+    & > li:nth-child(4) {
+      order: 1;
+    }
+  }
+  .first_view {
+    padding-top: 30px;
+  }
+  .menu li {
+    height: auto;
+    a {
+      justify-content: center;
+    }
+  }
+  .drop {
+    display: block;
+    position: static;
+    padding: 0;
+    li {
+      padding: 0;
+      margin-bottom: 10px;
+      font-size: 14px;
+      border: none !important;
+      a {
+        justify-content: center;
+      }
+    }
+  }
 }
 
 @media (max-width: 767.9px) {
@@ -747,42 +806,6 @@ MEDIA
   }
 }
 @media (max-width: 575.9px) {
-  .menu_btn {
-    width: 30px;
-    height: 30px;
-    display: block;
-    margin-left: 20px;
-  }
-  .close_btn {
-    display: block;
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    left: 20px;
-    top: 20px;
-  }
-  .menu {
-    position: absolute;
-    flex-direction: column;
-    padding: 40px 10px;
-    width: 290px;
-    top: 0;
-    left: -100vw;
-    border-radius: 10px;
-    transition: all 0.4s;
-    li {
-      order: 2;
-    }
-    li:not(:last-child) {
-      margin-bottom: 20px;
-    }
-    li:nth-child(4) {
-      order: 1;
-    }
-  }
-  .first_view {
-    padding-top: 30px;
-  }
   footer li svg {
     width: 20px;
   }

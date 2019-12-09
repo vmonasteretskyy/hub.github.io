@@ -87,3 +87,9 @@ $(".mouse").on("click", "a", function(event) {
   //анимируем переход на расстояние - top за 1500 мс
   $("body,html").animate({ scrollTop: top }, 1000);
 });
+// $("header li a").mouseover(function() {
+//   $(".drop").slideDown(300);
+// });
+// $("header li").mouseleave(function() {
+//   $(".drop").slideUp(300);
+// });
