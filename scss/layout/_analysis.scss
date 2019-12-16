@@ -2,7 +2,11 @@
   margin-bottom: 27px;
 }
 .analysis {
-  padding-top: 150px;
+  .rep_1 {
+    padding-top: 150px;
+    background-image: url("../../image/ret_1bg.png");
+    background-size: cover;
+  }
   .we_do_blocks {
     color: #fff;
   }
