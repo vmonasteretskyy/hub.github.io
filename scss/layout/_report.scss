@@ -1,0 +1,67 @@
+.reporting {
+  h1 {
+    margin-bottom: 55px;
+  }
+  .rep_1 {
+    padding-top: 150px;
+    background-image: url("../../image/ret_1bg.png");
+    background-size: cover;
+  }
+}
+
+.text_block_rep {
+  p {
+    margin-bottom: 18px;
+  }
+  .m_15 {
+    margin-bottom: 15px;
+  }
+}
+.m_18 {
+  margin-bottom: 18px;
+}
+.img_chart_wrap {
+  position: relative;
+  margin: 45px 0;
+  img {
+    margin: 0 auto;
+  }
+}
+.frame_wraper {
+  height: 700px;
+  width: 100%;
+  margin: 45px 0 60px 0;
+  position: relative;
+}
+h2 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 129%;
+  text-align: center;
+  color: #fff;
+}
+.fifth_view h2 {
+  margin-bottom: 60px;
+}
+.ret_3 div .m_18 {
+  margin-bottom: 18px;
+}
+.rep_1,
+.ret_1 {
+  .dots_bg {
+    width: 11vw;
+  }
+  .dots_bg_1 {
+    top: 150px;
+    right: 0;
+  }
+  .dots_bg_2 {
+    top: auto;
+    bottom: 200px;
+  }
+}
+.ret_1 {
+  .dots_bg_1 {
+    top: 150px;
+  }
+}

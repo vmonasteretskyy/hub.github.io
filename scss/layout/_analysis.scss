@@ -1,0 +1,64 @@
+.analysis h4 {
+  margin-bottom: 27px;
+}
+.analysis {
+  padding-top: 150px;
+  .we_do_blocks {
+    color: #fff;
+  }
+  h1 {
+    margin-bottom: 55px;
+  }
+}
+.m_45 {
+  margin-bottom: 45px;
+}
+.analysis .third_view {
+  background-size: cover;
+}
+.top_row {
+  > div:nth-child(4) {
+    margin-top: 70px;
+  }
+  > div:nth-child(3) {
+    margin-top: 70px;
+  }
+}
+.analysis .third_view {
+  color: #fff;
+}
+.bot_buttons {
+  margin-top: 50px;
+  > div {
+    max-width: 40%;
+    margin-right: 30px;
+    a {
+      margin-bottom: 27px;
+    }
+  }
+}
+.an_bottom {
+  padding: 50px 0 150px 0;
+  h4 {
+    margin-bottom: 33px;
+  }
+  p {
+    margin-bottom: 18px;
+  }
+  .m_27 {
+    margin-bottom: 27px;
+  }
+  .dots_bg {
+    width: 11vw;
+    &_1 {
+      bottom: 150px;
+    }
+    &_2 {
+      right: 0;
+      top: 100px;
+    }
+  }
+}
+.text_link {
+  text-decoration: underline;
+}
