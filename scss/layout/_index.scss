@@ -548,3 +548,17 @@ footer a:hover,
 .read_more:hover path {
   fill: #29abe2;
 }
+.plusses_icon img {
+  transition: all 0.6s;
+}
+.plusses:hover {
+  .plusses_icon {
+    background-color: #29abe2;
+    img {
+      transform: rotate(360deg);
+    }
+  }
+}
+.menu li a {
+  color: #000;
+}
