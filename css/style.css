@@ -141,7 +141,7 @@ body { font-size: 18px; font-family: "Montserrat", sans-serif; line-height: 140%
 
 a { color: #585858; }
 
-@media (min-width: 1460px) { .container { max-width: 1410px; } }
+@media (min-width: 1550px) { .container { max-width: 1410px; } }
 
 .home > section { background-size: cover; background-repeat: no-repeat; }
 
@@ -513,7 +513,7 @@ MEDIA
 @media (max-width: 1570px) { .third_view .dots_bg_2 { top: 150px; }
   .seventh_view .dots_bg { width: 100px; height: 120px; top: 150px; } }
 
-@media (max-width: 1459.9px) { .automation .temp_sec_1 .dots_bg { width: 100px; height: 100px; }
+@media (max-width: 1550px) { .automation .temp_sec_1 .dots_bg { width: 100px; height: 100px; }
   .m_45 { margin-bottom: 30px; }
   .analysis h4 { font-size: 28px; }
   .analysis .third_view .dots_bg_2 { display: none; }
