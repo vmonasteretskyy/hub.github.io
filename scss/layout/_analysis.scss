@@ -2,8 +2,11 @@
   margin-bottom: 27px;
 }
 .analysis {
+  .third_view .dots_bg_3 {
+    top: 300px;
+  }
   .rep_1 {
-    padding-top: 150px;
+    padding-top: 200px;
     background-image: url("../../image/ret_1bg.png");
     background-size: cover;
   }
@@ -65,4 +68,7 @@
 }
 .text_link {
   text-decoration: underline;
+}
+.third_view_img_wrap {
+  margin-top: 50px;
 }

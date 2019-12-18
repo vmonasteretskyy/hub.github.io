@@ -3,7 +3,7 @@
     margin-bottom: 55px;
   }
   .rep_1 {
-    padding-top: 150px;
+    padding-top: 200px;
     background-image: url("../../image/ret_1bg.png");
     background-size: cover;
   }
@@ -52,16 +52,19 @@ h2 {
     width: 11vw;
   }
   .dots_bg_1 {
-    top: 150px;
+    top: 200px;
     right: 0;
   }
   .dots_bg_2 {
     top: auto;
-    bottom: 200px;
+    bottom: 100px;
   }
 }
 .ret_1 {
   .dots_bg_1 {
     top: 150px;
   }
+}
+.m_t_27 {
+  margin-top: 27px;
 }

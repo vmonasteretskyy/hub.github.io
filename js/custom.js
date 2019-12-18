@@ -56,7 +56,7 @@ $(document).ready(function() {
       arrows: false,
       variableWidth: true,
       autoplay: true,
-      autoplaySpeed: 2000
+      autoplaySpeed: 1200
     });
     $(".logo_slider").slick({
       centerMode: true,
@@ -64,7 +64,7 @@ $(document).ready(function() {
       arrows: false,
       variableWidth: true,
       autoplay: true,
-      autoplaySpeed: 2000
+      autoplaySpeed: 1200
     });
     // scroll mouse
     $(".mouse").on("click", "a", function(event) {

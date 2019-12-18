@@ -28,7 +28,7 @@ body {
 a {
   color: #585858;
 }
-@media (min-width: 1460px) {
+@media (min-width: 1550px) {
   .container {
     max-width: 1410px;
   }
@@ -82,7 +82,7 @@ section {
   color: #585858;
 }
 .first_view_text {
-  margin-top: 100px;
+  margin-top: 120px;
 }
 .first_view_sub_title {
   max-width: 450px;
@@ -375,7 +375,7 @@ section {
 .seventh_view {
   background-image: url("../image/bg7.png");
   background-repeat: no-repeat;
-  padding: 200px 0;
+  padding: 100px 0;
   .container {
     flex-direction: column;
   }
@@ -561,4 +561,7 @@ footer a:hover,
 }
 .menu li a {
   color: #000;
+}
+.drop li a {
+  font-weight: 400;
 }
