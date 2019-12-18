@@ -359,9 +359,13 @@ footer li svg { margin-right: 30px; }
 
 .drop li a { font-weight: 400; }
 
+.retrieval #type_1 { font-size: 56px; }
+
+.reporting .ret_3 { padding-top: 0; }
+
 h4 { font-weight: bold; font-size: 34px; line-height: 120%; text-align: center; }
 
-.ret_1 { background-image: url("../../image/ret_1bg.png"); padding-top: 200px; background-size: cover; padding-bottom: 40px; }
+.ret_1 { background-image: url("../image/ret_1bg.png"); padding-top: 200px; background-size: cover; padding-bottom: 40px; }
 
 .ret_1 h1 { margin-bottom: 50px; }
 
@@ -413,7 +417,9 @@ h4 { font-weight: bold; font-size: 34px; line-height: 120%; text-align: center; 
 
 .reporting h1 { margin-bottom: 55px; }
 
-.reporting .rep_1 { padding-top: 200px; background-image: url("../../image/ret_1bg.png"); background-size: cover; }
+.reporting .rep_1 { padding-top: 200px; background-image: url("../image/ret_1bg.png"); background-size: cover; }
+
+.reporting .fifth_view .dots_bg { width: 11vw; }
 
 .text_block_rep p { margin-bottom: 18px; }
 
@@ -621,7 +627,10 @@ MEDIA
   .big_link { max-height: 325px; }
   .blog_email_title, .home_blog_title { font-size: 22px; }
   .blog_email input { height: 45px; }
-  .blog_email .btn { height: 55px; } }
+  .blog_email .btn { height: 55px; }
+  .blog .home_blog { margin-top: 35px; }
+  .play_btn { width: 70px; height: 70px; }
+  .retrieval #type_1 { font-size: 35px; } }
 
 @media (max-width: 1570px) { .title_first_view { font-size: 50px; line-height: 55px; }
   .automation .temp_sec_1 .dots_bg { width: 100px; height: 100px; }
@@ -639,7 +648,9 @@ MEDIA
   .seventh_view .dots_bg { width: 80px; height: 90px; top: 169px; }
   .eight_view .dots_bg { height: 100px; top: 50px; } }
 
-@media (max-width: 1199.9px) { .third_view_img_wrap { margin-top: 0; }
+@media (max-width: 1199.9px) { .reporting .ret_3 { padding-top: 30px; }
+  .retrieval #type_1 { font-size: 29px; }
+  .third_view_img_wrap { margin-top: 0; }
   .automation .temp_sec_1 .dots_bg { display: none; }
   .an_bottom .dots_bg { display: none; }
   .big_img { -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; display: -webkit-flex; display: -ms-flexbox; display: flex; }
@@ -672,7 +683,13 @@ MEDIA
   .fourth_view .dots_bg { height: 100px; width: 100px; }
   .fourth_view .dots_bg_2 { bottom: 100px; } }
 
-@media (max-width: 991.9px) { .template, .analysis .rep_1 { padding-top: 80px; }
+@media (max-width: 991.9px) { .blog_pagination > ul { -webkit-justify-content: space-around; -ms-flex-pack: distribute; justify-content: space-around; }
+  .blog_pagination { margin-left: 0; }
+  .blog_pagination .page-item { margin: 0; }
+  .retrieval #type_1 { font-size: 26px; }
+  .blog_email { margin-top: 50px; }
+  .blog { padding-top: 80px; }
+  .template, .analysis .rep_1 { padding-top: 80px; }
   h2 { font-size: 25px; }
   .fifth_view h2 { margin-bottom: 30px; }
   .frame_wraper { height: 400px; }
@@ -710,9 +727,12 @@ MEDIA
   .bot_buttons { -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; margin-bottom: 30px; }
   .bot_buttons > div { max-width: 100%; margin-bottom: 27px; }
   .mobile_logo { position: absolute !important; left: 10px; top: 15px; width: auto !important; }
-  .mobile_logo .logo_header { width: 90px; height: 90px; } }
+  .mobile_logo .logo_header { width: 90px; height: 90px; }
+  .blog { background-size: cover; }
+  .blog h1 { margin-bottom: 25px; } }
 
-@media (max-width: 767.9px) { .ret_1 .dots_bg { display: none; }
+@media (max-width: 767.9px) { .retrieval #type_1 { font-size: 24px; }
+  .ret_1 .dots_bg { display: none; }
   .eight_view { background-image: none; }
   .frame_wraper { height: 300px; }
   .color_change { width: 100%; white-space: unset; }
@@ -729,7 +749,12 @@ MEDIA
   h4, .analysis h4 { font-size: 22px; }
   h2 { font-size: 24px; } }
 
-@media (max-width: 575.9px) { .eight_view .dots_bg { display: none; }
+@media (max-width: 575.9px) { .big_link .link_wraper_title { font-size: 20px; }
+  .big_link .link_wraper_info { max-width: none; }
+  .blog h1 { margin-bottom: 15px; }
+  .blog_pagination .page-link { width: 30px; height: 30px; }
+  .retrieval #type_1 { font-size: 22px; }
+  .eight_view .dots_bg { display: none; }
   .ret_top_text_3, .ret_top_text_2 { margin-top: 30px; }
   .check_list, .ret_top_text_1 p b { padding-left: 0; }
   .ret_3 { padding-bottom: 60px; }
