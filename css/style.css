@@ -131,9 +131,9 @@ header li a:hover + ul { display: block; }
   .menu li { height: 60px; }
   .drop { top: 59px; } }
 
-@font-face { font-family: "GothamPro"; src: url("../../fonts/GothamPro/GothamPro.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+@font-face { font-family: "GothamPro"; src: url("../fonts/GothamPro/GothamPro.ttf") format("truetype"); font-weight: normal; font-style: normal; }
 
-@font-face { font-family: "GothamPro"; src: url("../../fonts/GothamPro/GothamPro-Bold.ttf") format("truetype"); font-weight: bold; font-style: normal; }
+@font-face { font-family: "GothamPro"; src: url("../fonts/GothamPro/GothamPro-Bold.ttf") format("truetype"); font-weight: bold; font-style: normal; }
 
 .just_center { display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; }
 
