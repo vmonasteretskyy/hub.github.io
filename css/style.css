@@ -367,6 +367,8 @@ footer li svg { margin-right: 30px; }
 
 .reporting .ret_3 { padding-top: 0; }
 
+button.btn:hover { background-color: #39b54a; color: #fff; }
+
 h4 { font-weight: bold; font-size: 34px; line-height: 120%; text-align: center; }
 
 .ret_1 { background-image: url("../image/ret_1bg.png"); padding-top: 200px; background-size: cover; padding-bottom: 40px; }
@@ -607,6 +609,8 @@ h2 { font-weight: bold; font-size: 40px; line-height: 129%; text-align: center; 
 
 .blog a:hover { color: #29abe2; }
 
+.link_wraper:hover .link_wraper_title { color: #29abe2; }
+
 .blog_open_top { padding-top: 200px; background-image: url("../image/blog_open_bg.png"); background-size: cover; padding-bottom: 80px; }
 
 .blog_open_top .dots_bg { width: 11vw; }
@@ -615,11 +619,11 @@ h2 { font-weight: bold; font-size: 40px; line-height: 129%; text-align: center; 
 
 .blog_open_top .dots_bg_2 { top: 400px; right: 0; }
 
-.path span:first-child { font-weight: 500; font-size: 16px; line-height: 34px; color: #585858; }
+.path a span { font-weight: 500; font-size: 16px; line-height: 34px; color: #585858; }
 
 .path .dot { width: 7px; height: 7px; border-radius: 50%; background-color: #585858; display: inline-block; margin: 0 14px; }
 
-.path span:last-child { font-weight: 500; font-size: 16px; line-height: 34px; color: rgba(88, 88, 88, 0.5); }
+.path > span { font-weight: 500; font-size: 16px; line-height: 34px; color: rgba(88, 88, 88, 0.5); }
 
 .blog_open_title { font-weight: bold; font-size: 26px; line-height: 32px; color: #585858; text-align: center; margin-top: 72px; margin-bottom: 62px; }
 
@@ -705,7 +709,9 @@ MEDIA
   .first_view .dots_bg_2 { width: 13vw; height: 150px; }
   .fifth_view .dots_bg { top: 130px; } }
 
-@media (max-width: 1570px) { h2 { font-size: 32px; }
+@media (max-width: 1570px) { .blog_open_top { padding-top: 150px; }
+  .blog_open_title { margin-top: 52px; margin-bottom: 42px; }
+  h2 { font-size: 32px; }
   .brand_slide, .logo_slide { height: 70px; }
   .third_view .dots_bg_2 { top: 150px; }
   .seventh_view .dots_bg { width: 100px; height: 120px; top: 150px; }

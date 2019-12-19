@@ -16,7 +16,7 @@
   }
 }
 .path {
-  span:first-child {
+  a span {
     font-weight: 500;
     font-size: 16px;
     line-height: 34px;
@@ -30,7 +30,7 @@
     display: inline-block;
     margin: 0 14px;
   }
-  span:last-child {
+  > span {
     font-weight: 500;
     font-size: 16px;
     line-height: 34px;

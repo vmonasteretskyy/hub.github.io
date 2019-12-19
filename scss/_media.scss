@@ -45,6 +45,13 @@ MEDIA
   }
 }
 @media (max-width: 1570px) {
+  .blog_open_top {
+    padding-top: 150px;
+  }
+  .blog_open_title {
+    margin-top: 52px;
+    margin-bottom: 42px;
+  }
   h2 {
     font-size: 32px;
   }
