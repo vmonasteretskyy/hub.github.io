@@ -534,6 +534,9 @@ MEDIA
   }
 }
 @media (max-width: 575.9px) {
+  .most_popular_block:not(:last-child)::after {
+    width: 100%;
+  }
   .path a {
     font-size: 11px;
   }

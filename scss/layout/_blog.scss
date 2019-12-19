@@ -190,6 +190,7 @@
 .most_popular_block {
   padding-bottom: 20px;
   margin-top: 15px;
+  position: relative;
   p {
     font-weight: bold;
     font-size: 20px;
@@ -207,7 +208,15 @@
   }
 }
 .most_popular_block:not(:last-child) {
-  border-bottom: 1px solid #29abe2;
+  &::after {
+    content: "";
+    width: 80%;
+    height: 1px;
+    background-color: #a5dcf3;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
 }
 
 .blog {

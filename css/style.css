@@ -587,7 +587,7 @@ h2 { font-weight: bold; font-size: 40px; line-height: 129%; text-align: center; 
 
 .most_popular_title span { display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; font-weight: bold; font-size: 26px; line-height: 32px; color: #ffffff; background-color: #29abe2; width: 210px; height: 65px; }
 
-.most_popular_block { padding-bottom: 20px; margin-top: 15px; }
+.most_popular_block { padding-bottom: 20px; margin-top: 15px; position: relative; }
 
 .most_popular_block p { font-weight: bold; font-size: 20px; line-height: 32px; }
 
@@ -595,7 +595,7 @@ h2 { font-weight: bold; font-size: 40px; line-height: 129%; text-align: center; 
 
 .most_popular_block .autor { font-weight: bold; color: #585858; }
 
-.most_popular_block:not(:last-child) { border-bottom: 1px solid #29abe2; }
+.most_popular_block:not(:last-child)::after { content: ""; width: 80%; height: 1px; background-color: #a5dcf3; position: absolute; bottom: 0; left: 0; }
 
 .blog .dots_bg { width: 11vw; }
 
@@ -844,7 +844,8 @@ MEDIA
   h4, .analysis h4 { font-size: 22px; }
   h2 { font-size: 24px; } }
 
-@media (max-width: 575.9px) { .path a { font-size: 11px; }
+@media (max-width: 575.9px) { .most_popular_block:not(:last-child)::after { width: 100%; }
+  .path a { font-size: 11px; }
   .path { -webkit-align-items: flex-start; -ms-flex-align: start; align-items: flex-start; }
   .path .dot { margin: 0 10px; margin-top: 14px; }
   .big_link .link_wraper_title { font-size: 20px; }
