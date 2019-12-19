@@ -609,7 +609,7 @@ h2 { font-weight: bold; font-size: 40px; line-height: 129%; text-align: center; 
 
 .blog a:hover { color: #29abe2; }
 
-.blog_open_top { padding-top: 200px; background-image: url("../../image/blog_open_bg.png"); background-size: cover; padding-bottom: 80px; }
+.blog_open_top { padding-top: 200px; background-image: url("../image/blog_open_bg.png"); background-size: cover; padding-bottom: 80px; }
 
 .blog_open_top .dots_bg { width: 11vw; }
 
