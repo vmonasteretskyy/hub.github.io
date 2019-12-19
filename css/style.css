@@ -387,8 +387,6 @@ h4 { font-weight: bold; font-size: 34px; line-height: 120%; text-align: center; 
 
 .ret_top_text_3 p:last-child { margin-top: 27px; }
 
-.check_list { padding-left: 50px; }
-
 .check_list li { background-image: url("../image/check.svg"); background-repeat: no-repeat; background-position: center left; padding-left: 30px; }
 
 .check_list li:not(:last-child) { margin-bottom: 17px; }
@@ -619,7 +617,7 @@ h2 { font-weight: bold; font-size: 40px; line-height: 129%; text-align: center; 
 
 .path span:first-child { font-weight: 500; font-size: 16px; line-height: 34px; color: #585858; }
 
-.path .dot { width: 7px; height: 7px; border-radius: 50%; background-color: #585858; display: inline-block; vertical-align: middle; margin: 0 14px; }
+.path .dot { width: 7px; height: 7px; border-radius: 50%; background-color: #585858; display: inline-block; margin: 0 14px; }
 
 .path span:last-child { font-weight: 500; font-size: 16px; line-height: 34px; color: rgba(88, 88, 88, 0.5); }
 
@@ -681,9 +679,19 @@ textarea { resize: none; }
 
 .blog_open { padding-bottom: 145px; }
 
+.blog_open a:hover { color: #29abe2; }
+
+.blog_open a:hover * { color: #29abe2; }
+
+.path { display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }
+
 /*
 
+
+
 MEDIA
+
+
 
 */
 @media (min-width: 1200px) and (max-height: 850px) { .title_first_view { font-size: 50px; line-height: 55px; }
@@ -708,7 +716,10 @@ MEDIA
   .blog_email .btn { height: 55px; }
   .blog .home_blog { margin-top: 35px; }
   .play_btn { width: 70px; height: 70px; }
-  .retrieval #type_1 { font-size: 35px; } }
+  .retrieval #type_1 { font-size: 35px; }
+  .open_blog_form input { height: 45px; }
+  .comment_date { font-size: 14px; }
+  .blog_open_pagination { margin-top: 30px; } }
 
 @media (max-width: 1570px) { .title_first_view { font-size: 50px; line-height: 55px; }
   .automation .temp_sec_1 .dots_bg { width: 100px; height: 100px; }
@@ -754,7 +765,6 @@ MEDIA
   .seventh_view { padding: 100px 0; }
   .logo_slider { margin-bottom: 60px; }
   .fifth_view .dots_bg { width: 80px; height: 80px; top: 60px; }
-  .check_list { padding-left: 30px; }
   h4 { font-size: 25px; }
   h2 { font-size: 28px; }
   .template .ret_3 { padding-top: 30px; }
@@ -834,7 +844,10 @@ MEDIA
   h4, .analysis h4 { font-size: 22px; }
   h2 { font-size: 24px; } }
 
-@media (max-width: 575.9px) { .big_link .link_wraper_title { font-size: 20px; }
+@media (max-width: 575.9px) { .path a { font-size: 11px; }
+  .path { -webkit-align-items: flex-start; -ms-flex-align: start; align-items: flex-start; }
+  .path .dot { margin: 0 10px; margin-top: 14px; }
+  .big_link .link_wraper_title { font-size: 20px; }
   .big_link .link_wraper_info { max-width: none; }
   .blog h1 { margin-bottom: 15px; }
   .blog_pagination .page-link { width: 30px; height: 30px; }

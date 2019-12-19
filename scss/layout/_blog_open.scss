@@ -28,7 +28,6 @@
     border-radius: 50%;
     background-color: #585858;
     display: inline-block;
-    vertical-align: middle;
     margin: 0 14px;
   }
   span:last-child {
@@ -163,4 +162,14 @@ textarea {
 }
 .blog_open {
   padding-bottom: 145px;
+}
+.blog_open a:hover {
+  color: #29abe2;
+}
+.blog_open a:hover * {
+  color: #29abe2;
+}
+.path {
+  display: flex;
+  align-items: center;
 }
