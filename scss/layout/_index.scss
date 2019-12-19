@@ -1,4 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&display=swap");
+@font-face {
+  font-family: "GothamPro";
+  src: url("../../fonts/GothamPro/GothamPro.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GothamPro";
+  src: url("../../fonts/GothamPro/GothamPro-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
 
 .just_center {
   display: flex;

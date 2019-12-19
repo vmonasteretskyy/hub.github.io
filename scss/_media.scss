@@ -257,8 +257,35 @@ MEDIA
       }
     }
   }
+  .open_blog_form {
+    padding: 30px 8%;
+    margin-top: 0;
+  }
+  .open_blog_form input {
+    height: 50px;
+  }
+  .open_blog_form_col {
+    display: flex;
+    align-items: center;
+  }
+  .blog_open_title {
+    margin-top: 52px;
+    margin-bottom: 42px;
+    font-size: 24px;
+  }
 }
 @media (max-width: 991.9px) {
+  .blog_open_top {
+    padding-top: 80px;
+  }
+  .news_content_img,
+  .open_blog_form_col {
+    margin-top: 30px;
+  }
+  .open_blog_form {
+    width: 100%;
+  }
+
   .blog_pagination > ul {
     justify-content: space-around;
   }
