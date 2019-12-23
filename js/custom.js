@@ -1,26 +1,26 @@
 // general srcipts
-function onlydesk() {
-  if ($(window).width() > 767.9) {
-    function go(target) {
-      var target;
-      var targetPos = target.offset().top;
-      var winHeight = $(window).height();
-      var scrollToElem = targetPos - winHeight;
-      $(window).scroll(function() {
-        var winScrollTop = $(this).scrollTop();
-        if (winScrollTop > scrollToElem) {
-          target.css("width", "100%");
-        }
-      });
-    }
-    $("#text_1").css("width", "100%");
-    if ($("main").hasClass("home")) {
-      go($("#text_2"));
-      go($("#text_3"));
-      go($("#text_4"));
-    }
-  }
-}
+// function onlydesk() {
+//   if ($(window).width() > 767.9) {
+//     function go(target) {
+//       var target;
+//       var targetPos = target.offset().top;
+//       var winHeight = $(window).height();
+//       var scrollToElem = targetPos - winHeight;
+//       $(window).scroll(function() {
+//         var winScrollTop = $(this).scrollTop();
+//         if (winScrollTop > scrollToElem) {
+//           target.css("width", "100%");
+//         }
+//       });
+//     }
+//     $("#text_1").css("width", "100%");
+//     if ($("main").hasClass("home")) {
+//       go($("#text_2"));
+//       go($("#text_3"));
+//       go($("#text_4"));
+//     }
+//   }
+// }
 
 $(document).ready(function() {
   $(".menu_btn").click(function() {

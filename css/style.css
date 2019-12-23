@@ -369,6 +369,26 @@ footer li svg { margin-right: 30px; }
 
 button.btn:hover { background-color: #39b54a; color: #fff; }
 
+.first_view .animation_2 { display: inline-block; }
+
+.animation_2 { overflow: hidden; height: 55px; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; text-align: center; }
+
+.animation_2 h1 { margin: 0; }
+
+.animation_2 ul { -webkit-animation-name: change; -webkit-animation-duration: 5s; -webkit-animation-iteration-count: infinite; animation-name: change; animation-duration: 5s; animation-iteration-count: infinite; display: block; width: -webkit-fit-content; width: -moz-fit-content; width: fit-content; margin: 0 auto; list-style: none; }
+
+.animation_2 ul .text_black h1 { color: #fff !important; }
+
+.animation_2 ul .text_blue h1 { color: #29abe2 !important; }
+
+.animation_2 li { line-height: 45px; list-style: none; margin: 0; border: none; }
+
+@-webkit-keyframes change { 0% { -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); }
+  40% { -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); }
+  50% { -webkit-transform: translate3d(0, -50%, 0); transform: translate3d(0, -50%, 0); }
+  90% { -webkit-transform: translate3d(0, -50%, 0); transform: translate3d(0, -50%, 0); }
+  100% { -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); } }
+
 h4 { font-weight: bold; font-size: 34px; line-height: 120%; text-align: center; }
 
 .ret_1 { background-image: url("../image/ret_1bg.png"); padding-top: 200px; background-size: cover; padding-bottom: 40px; }
@@ -698,7 +718,8 @@ MEDIA
 
 
 */
-@media (min-width: 1200px) and (max-height: 850px) { .title_first_view { font-size: 50px; line-height: 55px; }
+@media (min-width: 1200px) and (max-height: 850px) { .title_first_view, .first_view_text h1 { font-size: 50px; line-height: 55px; }
+  .first_view .animation_2 { height: 55px; }
   .first_view_sub_title { margin-top: 20px; margin-bottom: 15px; }
   .first_view .read_more { margin-top: 20px; }
   .logo_header { height: 60px; }
@@ -727,7 +748,8 @@ MEDIA
   .comment_date { font-size: 14px; }
   .blog_open_pagination { margin-top: 30px; } }
 
-@media (max-width: 1570px) { .title_first_view { font-size: 50px; line-height: 55px; }
+@media (max-width: 1570px) { .first_view .animation_2 { height: 55px; }
+  .title_first_view, .first_view_text h1 { font-size: 50px; line-height: 55px; }
   .automation .temp_sec_1 .dots_bg { width: 100px; height: 100px; }
   .m_45 { margin-bottom: 30px; }
   .analysis h4 { font-size: 28px; }
@@ -756,10 +778,12 @@ MEDIA
   .menu { -webkit-justify-content: space-around; -ms-flex-pack: distribute; justify-content: space-around; }
   .logo_header { height: 60px; }
   .first_view { height: auto; padding-bottom: 20px; }
-  .title_first_view { font-size: 53px; line-height: 60px; }
+  .first_view .animation_2 { height: 55px; }
+  .title_first_view, .first_view_text h1 { font-size: 53px; line-height: 60px; }
   .first_view_text { margin-top: 40px; }
   .mouse { display: none; }
   h1 { font-size: 40px; }
+  .animation_2 { height: 42px; }
   .seventh_view h3 { max-width: 90%; }
   .plusses_icon { width: 60px; height: 60px; }
   .plusses_icon img { width: 30px; height: 30px; }
@@ -798,6 +822,7 @@ MEDIA
   .big_img img { margin: 0 auto; }
   .third_view { padding-bottom: 100px; }
   h1 { font-size: 35px; }
+  .animation_2 { height: 40px; }
   .eight_view h1 { margin-bottom: 20px; }
   .brand_slide, .logo_slide { height: 70px; }
   .home_blog { margin-top: 30px; }
@@ -843,6 +868,7 @@ MEDIA
   .menu_footer { margin-right: 30%; }
   body { font-size: 14px; }
   h1 { font-size: 30px; }
+  .animation_2 { height: 31px; }
   h3 { font-size: 22px; }
   .seventh_view h3 { max-width: none; }
   .home_blog_title { font-size: 20px; }
@@ -864,7 +890,8 @@ MEDIA
   .check_list, .ret_top_text_1 p b { padding-left: 0; }
   .ret_3 { padding-bottom: 60px; }
   footer li svg { width: 20px; }
-  .title_first_view { font-size: 40px; line-height: 45px; }
+  .first_view .animation_2 { height: 45px; }
+  .title_first_view, .first_view_text h1 { font-size: 40px; line-height: 45px; }
   .first_view_sub_title { margin-top: 20px; margin-bottom: 30px; }
   .third_view .row > div { margin-top: 40px; }
   h1 { font-size: 27px; }
