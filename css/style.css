@@ -757,7 +757,7 @@ textarea { resize: none; }
 
 .wrap_request .jq-selectbox__select { width: 450px; }
 
-.jq-selectbox__trigger { background-image: url("../../image/tri.svg"); background-repeat: no-repeat; background-position: center center; border-left: 0; }
+.jq-selectbox__trigger { background-image: url("../image/tri.svg"); background-repeat: no-repeat; background-position: center center; border-left: 0; }
 
 .jq-selectbox__trigger-arrow { display: none; }
 
