@@ -16,11 +16,10 @@
   padding-top: 0;
 }
 .automation .temp_sec_1 {
-  padding-bottom: 30px;
   .dots_bg {
-    right: 0;
+    left: 0;
     width: 11vw;
-    top: 50%;
+    top: 230px;
     transform: translate(0, -50%);
   }
 }
@@ -29,4 +28,23 @@
   img {
     margin: 0 auto;
   }
+}
+.exchange .temp_sec_1 .dots_bg {
+  width: 11vw;
+  &_1 {
+    left: 0;
+    top: 30%;
+  }
+  &_2 {
+    right: 0;
+    top: 0;
+  }
+}
+.template .fifth_view .dots_bg {
+  width: 11vw;
+  left: 0;
+  top: 130px;
+}
+.template .animation_2 {
+  margin-bottom: 55px;
 }

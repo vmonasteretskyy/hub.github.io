@@ -587,6 +587,9 @@ button.btn:hover {
   background-color: #39b54a;
   color: #fff;
 }
+.eight_view .animation_2 {
+  margin-bottom: 100px;
+}
 
 // new animation
 .first_view .animation_2 {
@@ -594,11 +597,11 @@ button.btn:hover {
 }
 .animation_2 {
   overflow: hidden;
-  height: 55px;
+  height: 90px;
   justify-content: center;
   text-align: center;
   h1 {
-    margin: 0;
+    margin: 0 !important;
   }
   ul {
     -webkit-animation-name: change;
@@ -629,65 +632,3 @@ button.btn:hover {
     border: none;
   }
 }
-@-webkit-keyframes change {
-  0% {
-    transform: translate3d(0, 0, 0);
-  }
-  40% {
-    transform: translate3d(0, 0, 0);
-  }
-  50% {
-    transform: translate3d(0, -50%, 0);
-  }
-  90% {
-    transform: translate3d(0, -50%, 0);
-  }
-  100% {
-    transform: translate3d(0, 0, 0);
-  }
-  // 66.64%,79.3% {transform:translate3d(0,-50%,0);}
-  // 83.3%,95.96% {transform:translate3d(0,-25%,0);}
-}
-
-// @-webkit-keyframes change {
-//   100% {
-//     transform: translate3d(0, 0, 0);
-//   }
-
-//   50% {
-//     transform: translate3d(0, -50%, 0);
-//   }
-// }
-
-// @-o-keyframes change {
-//   0%,
-//   100% {
-//     transform: translate3d(0, 0, 0);
-//   }
-
-//   50% {
-//     transform: translate3d(0, -50%, 0);
-//   }
-// }
-
-// @-moz-keyframes change {
-//   0%,
-//   100% {
-//     transform: translate3d(0, 0, 0);
-//   }
-
-//   50% {
-//     transform: translate3d(0, -50%, 0);
-//   }
-// }
-
-// @keyframes change {
-//   0%,
-//   100% {
-//     transform: translate3d(0, 0, 0);
-//   }
-
-//   50% {
-//     transform: translate3d(0, -50%, 0);
-//   }
-// }

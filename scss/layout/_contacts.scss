@@ -1,0 +1,146 @@
+.cont_img {
+  position: relative;
+  overflow: hidden;
+  max-height: 340px;
+  max-width: 100%;
+}
+.contacts {
+  padding-top: 200px;
+  padding-bottom: 60px;
+  .animation_2 {
+    margin-bottom: 60px;
+  }
+  .contacts_wrap {
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 2px;
+  }
+}
+.contacts_links {
+  padding: 50px 15px 80px 35px;
+
+  li {
+    width: 100%;
+    display: block;
+    a {
+      color: #29abe2;
+      span {
+        margin-left: 30px;
+      }
+    }
+  }
+  li:not(:first-child) {
+    margin-top: 100px;
+  }
+}
+textarea {
+  resize: none;
+}
+.cont_form {
+  padding-top: 68px;
+  padding-right: 15px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  .btn,
+  .recaptcha_wrap {
+    margin-left: 270px;
+    margin-top: 30px;
+  }
+  input,
+  textarea {
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(41, 171, 226, 0.4);
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding-left: 10px;
+  }
+  input {
+    height: 65px;
+    width: 300px;
+  }
+  textarea {
+    height: 160px;
+    width: 450px;
+  }
+  label {
+    color: #585858;
+    font-weight: 500;
+    max-width: 210px;
+  }
+  > div {
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+  }
+  .wrap_looking,
+  .wrap_request {
+    width: 80%;
+    margin-top: 30px;
+  }
+}
+.wrap_country {
+  .jq-selectbox__select {
+    width: 300px;
+  }
+}
+.wrap_request .jq-selectbox__select,
+.wrap_country .jq-selectbox__select {
+  height: 65px;
+  background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+  border-radius: 2px;
+  border: 1px solid rgba(41, 171, 226, 0.4);
+  display: flex;
+  align-items: center;
+  box-shadow: none;
+}
+.wrap_request .jq-selectbox__select {
+  width: 450px;
+}
+.jq-selectbox__trigger {
+  background-image: url("../../image/tri.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-left: 0;
+}
+.jq-selectbox__trigger-arrow {
+  display: none;
+}
+
+.jq-selectbox__select-text,
+.cont_form input,
+.cont_form textarea {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 140%;
+  color: #585858;
+}
+
+.contacts {
+  .dots_bg {
+    width: 11vw;
+    z-index: 0;
+    &_1 {
+      left: 0;
+      top: 800px;
+    }
+    &_2 {
+      right: 0;
+      top: 200px;
+    }
+  }
+}
+.contacts_wrap {
+  position: relative;
+  z-index: 3;
+}
+.contacts_links a:hover {
+  color: #39b54a;
+  path {
+    fill: #39b54a;
+  }
+}

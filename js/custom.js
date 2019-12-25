@@ -23,6 +23,9 @@
 // }
 
 $(document).ready(function() {
+  if ($("main").hasClass("contacts")) {
+    $(" select").styler();
+  }
   $(".menu_btn").click(function() {
     $(".menu").css("right", "20px");
   });
@@ -102,9 +105,8 @@ $(document).ready(function() {
       "Like to know how your business process can be streamlined? Click here to submit a request and someone will get in touch with you in 1-2 business day(s)  "
     );
   }
-  onlydesk();
 });
 
-$(window).resize(function() {
-  onlydesk();
-});
+// $(window).resize(function() {
+//   // onlydesk();
+// });
