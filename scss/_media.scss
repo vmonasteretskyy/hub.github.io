@@ -109,6 +109,9 @@ MEDIA
   }
 }
 @media (max-width: 1570px) {
+  .privacy .dots_bg {
+    display: none;
+  }
   .cont_form .btn,
   .cont_form .recaptcha_wrap {
     margin-left: 206px;
@@ -200,6 +203,9 @@ MEDIA
   }
 }
 @media (max-width: 1199.9px) {
+  .privacy {
+    padding-top: 80px;
+  }
   .contacts .dots_bg {
     display: none;
   }
@@ -365,6 +371,10 @@ MEDIA
   }
 }
 @media (max-width: 991.9px) {
+  .contacts_links {
+    height: auto;
+    background-color: transparent;
+  }
   .contacts .contacts_wrap {
     background-color: transparent;
   }
@@ -417,7 +427,7 @@ MEDIA
   .blog {
     padding-top: 80px;
   }
-  .template,
+  .temp_sec_1,
   .analysis .rep_1 {
     padding-top: 80px;
   }

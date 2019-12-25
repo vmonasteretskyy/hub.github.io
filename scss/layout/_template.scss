@@ -1,10 +1,13 @@
 .template {
-  padding-top: 200px;
   h1 {
     margin-bottom: 50px;
   }
 }
 .temp_sec_1 {
+  background-image: url("../image/ret_1bg.png");
+  background-repeat: no-repeat;
+  padding-top: 200px;
+  background-size: cover;
   p {
     margin-bottom: 18px;
   }
@@ -19,7 +22,7 @@
   .dots_bg {
     left: 0;
     width: 11vw;
-    top: 230px;
+    top: 330px;
     transform: translate(0, -50%);
   }
 }
@@ -33,11 +36,11 @@
   width: 11vw;
   &_1 {
     left: 0;
-    top: 30%;
+    top: 40%;
   }
   &_2 {
     right: 0;
-    top: 0;
+    top: 200px;
   }
 }
 .template .fifth_view .dots_bg {

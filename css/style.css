@@ -515,9 +515,9 @@ h2 { font-weight: bold; font-size: 40px; line-height: 129%; text-align: center; 
 
 .analysis .animation_2 { margin-bottom: 55px; }
 
-.template { padding-top: 200px; }
-
 .template h1 { margin-bottom: 50px; }
+
+.temp_sec_1 { background-image: url("../image/ret_1bg.png"); background-repeat: no-repeat; padding-top: 200px; background-size: cover; }
 
 .temp_sec_1 p { margin-bottom: 18px; }
 
@@ -525,7 +525,7 @@ h2 { font-weight: bold; font-size: 40px; line-height: 129%; text-align: center; 
 
 .template .ret_3 { padding-top: 0; }
 
-.automation .temp_sec_1 .dots_bg { left: 0; width: 11vw; top: 230px; -webkit-transform: translate(0, -50%); -ms-transform: translate(0, -50%); transform: translate(0, -50%); }
+.automation .temp_sec_1 .dots_bg { left: 0; width: 11vw; top: 330px; -webkit-transform: translate(0, -50%); -ms-transform: translate(0, -50%); transform: translate(0, -50%); }
 
 .ex_img { margin: 70px 0; }
 
@@ -533,9 +533,9 @@ h2 { font-weight: bold; font-size: 40px; line-height: 129%; text-align: center; 
 
 .exchange .temp_sec_1 .dots_bg { width: 11vw; }
 
-.exchange .temp_sec_1 .dots_bg_1 { left: 0; top: 30%; }
+.exchange .temp_sec_1 .dots_bg_1 { left: 0; top: 40%; }
 
-.exchange .temp_sec_1 .dots_bg_2 { right: 0; top: 0; }
+.exchange .temp_sec_1 .dots_bg_2 { right: 0; top: 200px; }
 
 .template .fifth_view .dots_bg { width: 11vw; left: 0; top: 130px; }
 
@@ -775,6 +775,28 @@ textarea { resize: none; }
 
 .contacts_links a:hover path { fill: #39b54a; }
 
+.contacts_wrap .col-xl-4 { overflow: hidden; position: relative; }
+
+.contacts_links { background-color: #ffffff; height: 100%; }
+
+.privacy { padding-top: 200px; padding-bottom: 140px; }
+
+.privacy .animation_2 { margin-bottom: 55px; }
+
+.privacy p { margin-bottom: 18px; }
+
+.privacy .sm_title { margin-top: 27px; font-weight: bold; }
+
+.privacy .check_list li { background-position: left top; }
+
+.privacy h4 { margin-top: 45px; margin-bottom: 27px; }
+
+.privacy .dots_bg { width: 11vw; }
+
+.privacy .dots_bg_1 { top: 200px; right: 0; }
+
+.privacy .dots_bg_2 { top: 600px; left: 0; }
+
 /*
 
 
@@ -814,7 +836,8 @@ MEDIA
   .comment_date { font-size: 14px; }
   .blog_open_pagination { margin-top: 30px; } }
 
-@media (max-width: 1570px) { .cont_form .btn, .cont_form .recaptcha_wrap { margin-left: 206px; }
+@media (max-width: 1570px) { .privacy .dots_bg { display: none; }
+  .cont_form .btn, .cont_form .recaptcha_wrap { margin-left: 206px; }
   .contacts_links li a span { margin-left: 15px; }
   .contacts_links svg { width: 20px; height: 20px; }
   .contacts_links { padding-left: 10px; }
@@ -840,7 +863,8 @@ MEDIA
   .seventh_view .dots_bg { width: 80px; height: 90px; top: 169px; }
   .eight_view .dots_bg { height: 100px; top: 50px; } }
 
-@media (max-width: 1199.9px) { .contacts .dots_bg { display: none; }
+@media (max-width: 1199.9px) { .privacy { padding-top: 80px; }
+  .contacts .dots_bg { display: none; }
   .cont_form { padding-top: 30px; }
   .cont_form .btn, .cont_form .recaptcha_wrap { margin-left: 135px; }
   .cont_form > div, .cont_form .wrap_looking, .cont_form .wrap_request { width: 100%; }
@@ -886,7 +910,8 @@ MEDIA
   .open_blog_form_col { display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }
   .blog_open_title { margin-top: 52px; margin-bottom: 42px; font-size: 24px; } }
 
-@media (max-width: 991.9px) { .contacts .contacts_wrap { background-color: transparent; }
+@media (max-width: 991.9px) { .contacts_links { height: auto; background-color: transparent; }
+  .contacts .contacts_wrap { background-color: transparent; }
   .cont_form .btn, .cont_form .recaptcha_wrap { margin: 0 auto; margin-top: 30px; }
   .recaptcha_wrap img { margin: 0 auto; }
   .cont_form input, .wrap_country .jq-selectbox__select, .cont_form textarea, .wrap_request .jq-selectbox__select { width: 450px; }
@@ -900,7 +925,7 @@ MEDIA
   .retrieval #type_1 { font-size: 26px; }
   .blog_email { margin-top: 50px; }
   .blog { padding-top: 80px; }
-  .template, .analysis .rep_1 { padding-top: 80px; }
+  .temp_sec_1, .analysis .rep_1 { padding-top: 80px; }
   h2 { font-size: 25px; }
   .fifth_view h2 { margin-bottom: 30px; }
   .frame_wraper { height: 400px; }
