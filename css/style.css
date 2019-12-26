@@ -783,6 +783,16 @@ textarea { resize: none; }
 
 .jq-selectbox li:hover { background-color: #29abe2; }
 
+.jq-selectbox li.selected:hover { background-color: #29abe2; }
+
+.cont_form input:focus, .cont_form textarea:focus { border: 1px solid #5794bf; }
+
+.jq-selectbox li { padding: 15px 10px; }
+
+.jq-selectbox__trigger { width: 50px; }
+
+.jq-selectbox li.selected { background-color: #bce5f6; }
+
 .privacy { padding-top: 200px; padding-bottom: 140px; }
 
 .privacy .animation_2 { margin-bottom: 55px; }
