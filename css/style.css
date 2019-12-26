@@ -717,7 +717,7 @@ textarea { resize: none; }
 
 .cont_img { position: relative; overflow: hidden; max-height: 340px; max-width: 100%; }
 
-.contacts { padding-top: 200px; padding-bottom: 60px; }
+.contacts { padding-top: 200px; padding-bottom: 60px; background-image: url("../image/ret_1bg.png"); background-repeat: no-repeat; background-size: cover; }
 
 .contacts .animation_2 { margin-bottom: 60px; }
 
