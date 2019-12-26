@@ -793,7 +793,7 @@ textarea { resize: none; }
 
 .jq-selectbox li.selected { background-color: #bce5f6; }
 
-.privacy { padding-top: 200px; padding-bottom: 140px; }
+.privacy { padding-top: 200px; padding-bottom: 140px; background-image: url("../image/bg_priv.png"); }
 
 .privacy .animation_2 { margin-bottom: 55px; }
 
