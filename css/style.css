@@ -379,11 +379,13 @@ button.btn:hover { background-color: #39b54a; color: #fff; }
 
 .animation_2 ul { -webkit-animation-name: change; -webkit-animation-duration: 5s; -webkit-animation-iteration-count: infinite; animation-name: change; animation-duration: 5s; animation-iteration-count: infinite; display: block; width: -webkit-fit-content; width: -moz-fit-content; width: fit-content; margin: 0 auto; list-style: none; }
 
-.animation_2 ul .text_black h1 { color: #fff !important; }
+.animation_2 ul .text_black h1 { color: #585858 !important; }
 
 .animation_2 ul .text_blue h1 { color: #29abe2 !important; }
 
 .animation_2 li { line-height: 45px; list-style: none; margin: 0; border: none; }
+
+.third_view .animation_2 .text_black h1 { color: #fff !important; }
 
 h4 { font-weight: bold; font-size: 34px; line-height: 120%; text-align: center; }
 
@@ -778,6 +780,8 @@ textarea { resize: none; }
 .contacts_wrap .col-xl-4 { overflow: hidden; position: relative; }
 
 .contacts_links { background-color: #ffffff; height: 100%; }
+
+.jq-selectbox li:hover { background-color: #29abe2; }
 
 .privacy { padding-top: 200px; padding-bottom: 140px; }
 

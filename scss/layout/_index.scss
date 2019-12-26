@@ -616,7 +616,7 @@ button.btn:hover {
     list-style: none;
     .text_black {
       h1 {
-        color: #fff !important;
+        color: #585858 !important;
       }
     }
     .text_blue {
@@ -630,5 +630,12 @@ button.btn:hover {
     list-style: none;
     margin: 0;
     border: none;
+  }
+}
+.third_view .animation_2 {
+  .text_black {
+    h1 {
+      color: #fff !important;
+    }
   }
 }
