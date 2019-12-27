@@ -1,0 +1,122 @@
+.testimonials {
+  padding-top: 200px;
+  padding-bottom: 160px;
+  background-image: url("../image/ret_1bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  .dots_bg {
+    width: 11vw;
+    right: 0;
+    top: 380px;
+  }
+}
+
+.test_slide_content {
+  background: rgba(255, 255, 255, 0.7);
+  /* цифри темні на графіку */
+  border: 1px solid #969494;
+  box-sizing: border-box;
+  padding: 9.7%;
+  margin: 0 15px;
+  height: 525px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  &_top {
+    img {
+      margin: 0 auto;
+    }
+    p {
+      font-weight: 500;
+      margin-top: 35px;
+    }
+  }
+  &_bottom {
+    p {
+      font-weight: 500;
+    }
+    a {
+      font-size: 14px;
+      line-height: 130%;
+      text-align: center;
+      color: #b1b1b1;
+    }
+    &_img {
+      width: 78px;
+      height: 78px;
+      margin: 0 auto;
+      margin-bottom: 15px;
+      position: relative;
+      &::after {
+        content: "";
+        width: 55%;
+        height: 1px;
+        background-color: #b1b1b1;
+        position: absolute;
+        top: -17px;
+        transform: translate(-50%, 0);
+        left: 50%;
+      }
+    }
+  }
+}
+
+.test_slider_wrap {
+  margin: 0 -15px;
+  padding-bottom: 40px;
+  margin-top: 90px;
+  .slick-arrow {
+    color: transparent;
+    background: #ffffff;
+    border-radius: 2px;
+    width: 78px;
+    height: 78px;
+    background-image: url("../image/arr.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    z-index: 99;
+    &:focus {
+      outline: none;
+    }
+  }
+  .slick-prev {
+    transform: translate(0, -50%) scale(-1, 1);
+    left: -15px;
+  }
+  .slick-next {
+    left: auto;
+    right: -15px;
+  }
+  .slick-dots {
+    display: flex;
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    button {
+      color: transparent;
+      width: 14px;
+      height: 14px;
+      border: 1px solid #ffffff;
+      border-radius: 50%;
+      &:focus {
+        outline: none;
+      }
+    }
+    li:not(:last-child) {
+      margin-right: 18px;
+    }
+    .slick-active {
+      button {
+        background-color: #fff;
+      }
+    }
+  }
+}
+.test_slider {
+  position: relative;
+}

@@ -104,6 +104,30 @@ $(document).ready(function() {
       $("#type_1"),
       "Like to know how your business process can be streamlined? Click here to submit a request and someone will get in touch with you in 1-2 business day(s)  "
     );
+  } else if ($("main").hasClass("testimonials")) {
+    $(".test_slider").slick({
+      infinite: true,
+      arrows: true,
+      slidesToShow: 3,
+      slidesToScroll: 3,
+      dots: true,
+      responsive: [
+        {
+          breakpoint: 1199.9,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2
+          }
+        },
+        {
+          breakpoint: 767.9,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    });
   }
 });
 

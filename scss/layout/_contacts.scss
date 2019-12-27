@@ -70,7 +70,7 @@ textarea {
   label {
     color: #585858;
     font-weight: 500;
-    max-width: 210px;
+    max-width: 200px;
   }
   > div {
     width: 45%;
@@ -174,4 +174,7 @@ textarea {
 }
 .jq-selectbox li.selected {
   background-color: #bce5f6;
+}
+.contacts_wrap {
+  border: 1px solid #969494;
 }

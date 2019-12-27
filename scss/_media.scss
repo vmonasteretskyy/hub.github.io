@@ -117,7 +117,7 @@ MEDIA
     margin-left: 206px;
   }
   .contacts_links li a span {
-    margin-left: 15px;
+    margin-left: 10px;
   }
   .contacts_links svg {
     width: 20px;
@@ -371,6 +371,20 @@ MEDIA
   }
 }
 @media (max-width: 991.9px) {
+  .contacts_wrap {
+    border: none;
+  }
+  .test_slide_content_top img {
+    width: 20px;
+  }
+  .test_slide_content_top p {
+    margin-top: 20px;
+  }
+
+  .testimonials {
+    padding-top: 80px;
+    padding-bottom: 60px;
+  }
   .contacts_links {
     height: auto;
     background-color: transparent;
@@ -661,6 +675,32 @@ MEDIA
   }
 }
 @media (max-width: 575.9px) {
+  .test_slide_content {
+    margin: 0 auto;
+    padding: 20px;
+    height: 470px;
+  }
+
+  .test_slider_wrap {
+    max-width: calc(100% - 10px);
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .test_slider_wrap .slick-dots button {
+    width: 10px;
+    height: 10px;
+  }
+  .test_slider_wrap .slick-arrow {
+    width: 40px;
+    height: 40px;
+    background-size: 50% 50%;
+  }
+  .test_slider_wrap .slick-prev {
+    left: -10px;
+  }
+  .test_slider_wrap .slick-next {
+    right: -10px;
+  }
   .retrieval .animation_2,
   .reporting .animation_2,
   .template .animation_2 {
