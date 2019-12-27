@@ -1068,7 +1068,6 @@ MEDIA
   .contacts .animation_2 { margin-bottom: 30px; }
   .cont_form { padding-top: 0; }
   .cont_form label { max-width: none; }
-  .contacts_links li a span { font-size: 12px; }
   .most_popular_block:not(:last-child)::after { width: 100%; }
   .path a { font-size: 11px; }
   .path { -webkit-align-items: flex-start; -ms-flex-align: start; align-items: flex-start; }
