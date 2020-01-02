@@ -371,6 +371,12 @@ MEDIA
   }
 }
 @media (max-width: 991.9px) {
+  .ord {
+    order: 2;
+    &_2 {
+      order: 1;
+    }
+  }
   .contacts_wrap {
     border: none;
   }
@@ -381,9 +387,16 @@ MEDIA
     margin-top: 20px;
   }
 
-  .testimonials {
+  .testimonials,
+  .about_first {
     padding-top: 80px;
     padding-bottom: 60px;
+  }
+  .about_first .animation_2 {
+    margin-bottom: 20px;
+  }
+  .about p#type_1 {
+    font-size: 20px;
   }
   .contacts_links {
     height: auto;
@@ -675,6 +688,9 @@ MEDIA
   }
 }
 @media (max-width: 575.9px) {
+  .about p#type_1 {
+    font-size: 18px;
+  }
   .test_slide_content {
     margin: 0 auto;
     padding: 20px;

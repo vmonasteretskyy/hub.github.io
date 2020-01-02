@@ -128,6 +128,11 @@ $(document).ready(function() {
         }
       ]
     });
+  } else if ($("main").hasClass("about")) {
+    typeText(
+      $("#type_1"),
+      "Use our tool to search and export Provider data based on NPI, Name, Location and Speciality"
+    );
   }
 });
 
