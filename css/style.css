@@ -858,7 +858,7 @@ textarea { resize: none; }
 
 .test_slider { position: relative; }
 
-.about_first { padding-top: 200px; padding-bottom: 120px; background-image: url("../image/bgab.png"); background-repeat: no-repeat; background-size: cover; }
+.about_first { padding-top: 200px; padding-bottom: 120px; background-image: url("../image/bgab.jpg"); background-repeat: no-repeat; background-size: cover; }
 
 .about_first .dots_bg { width: 11vw; }
 
